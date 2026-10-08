@@ -47,6 +47,8 @@ These steps prepared the data for exploratory analysis and regression modeling.
 
 A regression scatterplot was used to investigate the relationship between BMI and insurance charges.
 
+![BMI vs. Insurance Charges](images/1-bmi-vs-insurance-charges.png)
+
 The analysis identified a positive but relatively weak correlation of approximately **0.200**.
 
 This suggests that BMI alone does not explain much of the variation in insurance charges within the dataset.
@@ -55,11 +57,15 @@ This suggests that BMI alone does not explain much of the variation in insurance
 
 A boxplot was used to compare insurance charges across smoking-status categories.
 
+![Insurance Charges by Smoking Status](images/2-insurance-charges-by-smoking-status.png)
+
 The analysis revealed substantial differences between the groups, suggesting that smoking status is an important factor associated with insurance charges.
 
 ### Correlation Analysis
 
 A correlation matrix was generated to compare the relationships between numerical attributes and insurance charges.
+
+![Insurance Feature Correlation Heatmap](images/3-insurance-feature-correlation-heatmap.png)
 
 | Attribute | Correlation with charges |
 |---|---:|
